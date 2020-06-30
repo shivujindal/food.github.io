@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+    <title>recipes</title>
+
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          type="text/css" media="all"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC%3A400%2C700%7CLato%3A400%2C700%2C400italic%2C700italic&amp;ver=4.9.8"
+          type="text/css" media="screen"/>
+    <link rel="stylesheet" href="styley.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="print.css" type="text/css" media="print"/>
+    
+    <link rel="stylesheet" id="lt-ie9-css" href="ie.css" type="text/css" media="screen"/>
+    
+    <script src='js/jquery-3.0.0.min.js'></script>
+    <script src='js/jquery-migrate-3.0.1.min.js'></script>
+    
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script>
+    function slideSwitch() {
+        var $active = $('div#slideshow IMG.active');
+        var $next = $active.next();    
+
+        $next.addClass('active');
+
+        $active.removeClass('active');
+    }
+
+    $(function() {
+        setInterval( "slideSwitch()", 5000 );
+    });
+</script>
+    <![endif]-->
+</head>
+<body class="home sticky-menu sidebar-off" id="top">
+
+<h1 style="text-align:center">Our Recipes</h1>
+
+
+
+        <nav>
+                  <a href="id.html">Indian Dishes</a>|
+                  <a href="nonveg.html">Non-Veg</a>|
+                  <a href="vegg.html">Veg</a>|
+                  <a href="desserts.html">Desserts</a>
+               
+          </nav
+        
+
+
+
+
+            <div class="comments-wrapper">
+
+                <div id="comments" class="inner">
+
+                    <div class="comments-inner"><h3 id="respond-title">Comments (0)</h3></div>
+
+                    <aside class="comments">
+                    </aside>
+
+                    <div id="respond" class="comment-respond">
+                        <h3 id="reply-title" class="comment-reply-title">Leave a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="#respond" style="display:none;">Cancel reply</a></small></h3>
+                        <form>
+                            <p>Your email address will not be published. Required fields are marked <span class="required">*</span></p>
+                            <p><label for="comment">Comment</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" placeholder="Comment"></textarea></p><p class="comment-form-author"><label class="hidden" for="author">Name</label> <span class="required hidden">*</span><input id="author" name="author" type="text" value="" size="30" aria-required="true" placeholder="Name"></p>
+                            <p><label for="email">Email</label> <span class="required ">*</span><input id="email" name="email" type="text" value="" size="30" aria-required="true" placeholder="Email"></p>
+                            
+                            <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"></p>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+<script>var ie9 = false;</script>
+<!--[if lte IE 9 ]>
+<script> var ie9 = true; </script>
+<![endif]-->
+<script src="js/global-plugins.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
